@@ -1,10 +1,13 @@
-h1, h2 {
+h1 {
   font-family: 'JetBrains Mono', monospace;
   text-align: center;
+  font-size: 25px;
 }
 
 h2 {
   font-size: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
 }
 
 p {
@@ -25,13 +28,13 @@ p {
 }
 
 body {
-  background-color: rgb(240,240,240);
+  background-color: rgb(220,220,220);
   text-align: center;
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
@@ -42,8 +45,7 @@ img {
   padding: 0;
   margin: 0 auto;
   text-align: center;
-  letter-spacing: 20px
-
+  letter-spacing: 40px
 }
 
 .socials-list > li {
@@ -58,10 +60,18 @@ img {
 .card {
   box-shadow: 2px 2px 5px rgb(0,0,0,0.05);
   text-align: center;
+  padding: 10px 10px;
+  background-color: rgb(255,255,255);
+  border-radius: 5px;
+  margin: 10px;
 }
 
 .social:hover {
   color: rgb(85, 104, 248)
+}
+
+.fab {
+  font-size: 35px;
 }
 
 @media (max-width: 960px) {
