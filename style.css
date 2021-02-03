@@ -1,0 +1,84 @@
+h1, h2 {
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.lewagon {
+  text-decoration: none;
+  background-color: rgb(85, 104, 248, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.lewagon:hover {
+  color: white;
+}
+
+body {
+  background-color: rgb(240,240,240);
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.socials-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 20px
+
+}
+
+.socials-list > li {
+  display: inline-block;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 2px 2px 5px rgb(0,0,0,0.05);
+  text-align: center;
+}
+
+.social:hover {
+  color: rgb(85, 104, 248)
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
